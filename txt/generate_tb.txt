@@ -1,0 +1,1100 @@
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(9401, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(48791, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(63918, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(5960, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(2, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(9733, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(31658, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(12384, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(23884, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(4, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(61997, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(39627, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(15016, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(26766, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(2, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(7986, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(26293, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(7605, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(54092, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(4230, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(59473, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(42572, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(43870, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(2, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(21008, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(43040, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(16, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(32247, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(36579, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(3, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(38695, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(20770, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(5, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(43951, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(42761, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(15228, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(57850, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(2, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(16866, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(24629, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(41106, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(15248, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(2, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(30589, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(50839, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(46907, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(42973, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(7, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(9187, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(43368, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(17064, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(24203, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(4599, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(25050, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(3, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(50496, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(12204, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(12, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(13606, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(54727, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(6141, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(56178, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(3, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(33061, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(27149, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(33682, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(65308, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(2, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(63729, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(6842, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(20542, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(42144, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(2, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(49603, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(35770, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(34459, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(933, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(60399, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(10029, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(3, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(16182, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(25452, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(18, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(60868, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(63089, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(2889, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(4519, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(40921, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(19954, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(28723, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(45520, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(45004, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(13683, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(57725, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(58611, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(2874, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(63866, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(2, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(49253, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(35935, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(25480, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(17400, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(40, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(35708, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(23673, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(24242, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(56250, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(2, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(281, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(8309, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(26485, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(34740, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(5, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(9243, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(21348, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(9, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(44769, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(25425, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(3, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(46801, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(40101, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(22978, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(49690, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(2, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(44621, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(63899, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(4108, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(7808, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(4, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(43884, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(49113, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(9, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(21491, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(36073, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(42188, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(24366, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(2, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(34403, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(25905, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(60301, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(59883, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(43305, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(30473, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(18020, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(2011, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(21188, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(18302, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(2, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(10321, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(47673, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(53042, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(19564, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(2, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(3485, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(32276, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(44989, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(50286, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(6841, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(2431, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(34441, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(51462, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(794, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(38549, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(59270, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(44678, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(2, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(22126, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(15226, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(46, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(15215, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(64314, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(39592, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(49619, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(24684, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(34357, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(17, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(43966, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(2453, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(64831, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(61987, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(4465, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(20483, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(14753, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(14786, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(2620, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(2259, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(34350, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(6105, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(15, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(34535, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(13803, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(56392, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(41377, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(7, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(16234, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(25297, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(27303, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(17028, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(3, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(63846, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(21038, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(2, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(61707, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(20437, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(36264, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(11386, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(2, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(19215, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(10320, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(15, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(61005, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(43899, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(3, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(44677, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(39436, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(46353, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(43972, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(35887, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(50818, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(64455, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(50640, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(15, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(68, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(1539, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(52899, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(34418, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(7645, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(21899, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(48221, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(64037, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(63276, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(64455, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(3, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(23798, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(25043, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(15947, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(22108, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(46081, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(12118, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
+idata_a <= STD_LOGIC_VECTOR(TO_UNSIGNED(42545, 32));
+idata_b <= STD_LOGIC_VECTOR(TO_UNSIGNED(16809, 32));
+idata_en <= '1';
+wait for 10 ns;
+while odata_en = '0' loop
+    idata_en <= '0';
+    wait for 10 ns;
+end loop;
+ASSERT UNSIGNED(odata) = TO_UNSIGNED(1, 32) SEVERITY FAILURE;
+
+wait for 20 ns;
